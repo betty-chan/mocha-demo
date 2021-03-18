@@ -1,0 +1,27 @@
+{
+  "name": "mocha-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --recursive --reporter mochawesome"
+  },
+  "keywords": [
+    "testing",
+    "Mocha"
+  ],
+  "author": "Betty",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "chai": "^4.3.4",
+    "mocha": "~8.2.0",
+    "mochawesome": "^6.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "superagent": "^6.1.0"
+  }
+}
